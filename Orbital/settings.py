@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'widget_tweaks',
     'social_django'
-    
+
     ]
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -82,6 +82,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Orbital.wsgi.application'
 
+from django.contrib.messages import constants as message_constants
+MESSAGE_TAGS = {message_constants.DEBUG: 'debug',
+                message_constants.INFO: 'info',
+                message_constants.SUCCESS: 'success',
+                message_constants.WARNING: 'warning',
+                message_constants.ERROR: 'danger',}
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
@@ -164,6 +170,6 @@ LOGIN_REDIRECT_URL = 'survey:dashboard'
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT= 587
-EMAIL_USE_TLS=True 
+EMAIL_USE_TLS=True
 EMAIL_HOST_USER= 'orbitalnuads@gmail.com'
 EMAIL_HOST_PASSWORD='orbital2020NUadS'
