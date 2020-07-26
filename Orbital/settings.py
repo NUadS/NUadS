@@ -27,7 +27,7 @@ SECRET_KEY = '(4173v2)^c1hx!uz!h2y1uot(g^11$cpk#fj2rgdt#$h+rvr$%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['NUadS.pythonanywhere.com','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['nuads.pythonanywhere.com','127.0.0.1','localhost']
 
 #Key
 SOCIAL_AUTH_URL_NAMESPACE = 'social'
