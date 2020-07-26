@@ -475,3 +475,50 @@ a {
       font-size: 0.75vw;
     }
   }
+
+
+
+  #about-us {
+    position:absolute;
+    margin-top: 0px;
+    margin-left:1400px;
+    border-radius: 5px;
+    width: 400px;
+    height: 80vh;
+    background: rgba(37, 37, 37, 0.555);
+    z-index:15;
+  }
+
+@font-face{
+    font-family: Oswald;
+    src:url('https://fonts.googleapis.com/css?family=Oswald') format('truetype');
+  }
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px; margin: 0 0 0;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px; margin: 0 0 0;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px; margin: 0 0 0;
+  padding: 0px 30px;
+  text-align: center;
+}
