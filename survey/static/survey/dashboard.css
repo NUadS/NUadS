@@ -1,3 +1,99 @@
+header, .reward{
+  position:absolute;
+  z-index:20;
+}
+
+/* .reward{
+  margin-top: -100px
+} */
+
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .clouds, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+  z-index:initial;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) no-repeat center center fixed ;
+  z-index: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds2.png) repeat top center;
+    z-index:1;
+
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
 /* #block{
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
     height:70%;
@@ -8,7 +104,6 @@
 /* html, body {
   height: 100%;
 }
-
 body {
   display: grid;
   align-items: center;
@@ -16,11 +111,6 @@ body {
   margin: 0;
   background-color: #000;
 } */
-
-
-#update-button {
-  margin-left:0
-}
 
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
@@ -40,13 +130,16 @@ a {
 }
 
 #hero-slides {
+  position:absolute;
   --page: 0;
-  margin-top: 100px;
-  margin-left auto;
-  border-radius: 10px;
-  width: 1350px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right:auto;
+  border-radius: 5px;
+  width: 70%;
   height: 80vh;
   background: rgba(37, 37, 37, 0.555);
+  z-index:15
 
 }
 #hero-slides #header {
