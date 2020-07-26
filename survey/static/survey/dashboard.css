@@ -50,7 +50,7 @@ header, .reward{
   right:0;
   bottom:0;
   width:100%;
-  height:100%;
+  height:150%;
   display:block;
   z-index:initial;
 }
@@ -115,7 +115,7 @@ body {
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
-  --slides-per-page: 2;
+  --slides-per-page: 3;
   margin: 0;
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
@@ -132,14 +132,17 @@ a {
 #hero-slides {
   position:absolute;
   --page: 0;
-  margin-top: 0px;
-  margin-left: 50px;
+  margin-top: 25%;
+  margin-left: 8%;
   margin-right:auto;
   border-radius: 5px;
-  width: 70%;
+  width: 85%;
   height: 80vh;
   background: rgba(37, 37, 37, 0.555);
-  z-index:15
+  z-index:15;
+  overflow:hidden;
+  
+  
 
 }
 #hero-slides #header {
@@ -250,7 +253,7 @@ a {
   --slides-height: 50vh;
   width: auto;
   height: var(--slides-height);
-  padding: 2vw 4vw;
+  padding: 2vw 2vw;
   font-size: 0;
   white-space: nowrap;
   position: absolute;
@@ -459,7 +462,7 @@ a {
 
   @media (min-width: 1200px) and (max-width: 1699px) {
     body {
-      --slides-per-page: 3;
+      --slides-per-page: 2;
     }
 
     #hero-slides #slides .slide {
@@ -468,7 +471,7 @@ a {
   }
   @media (min-width: 1700px) {
     body {
-      --slide-per-age: 4;
+      --slide-per-page: 3;
     }
 
     #hero-slides #slides .slide {
@@ -480,11 +483,11 @@ a {
 
   #about-us {
     position:absolute;
-    margin-top: 0px;
-    margin-left:1400px;
+    margin-top: 0%;
+    margin-left:8%;
     border-radius: 5px;
-    width: 400px;
-    height: 80vh;
+    width: 85%;
+    height: 40vh;
     background: rgba(37, 37, 37, 0.555);
     z-index:15;
   }
@@ -520,5 +523,14 @@ h4 {
   font-weight: 300;
   line-height: 20px; margin: 0 0 0;
   padding: 0px 30px;
+  
   text-align: center;
+}
+
+#Copyright{
+  margin-top: 65%;
+  margin-left:85%;
+  font-size: 10px;
+  line-height:15px;
+  white-space: nowrap;
 }
