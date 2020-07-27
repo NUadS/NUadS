@@ -27,7 +27,7 @@ SECRET_KEY = '(4173v2)^c1hx!uz!h2y1uot(g^11$cpk#fj2rgdt#$h+rvr$%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['orbital.pythonanywhere.com','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['nuads.pythonanywhere.com','127.0.0.1','localhost']
 
 #Key
 SOCIAL_AUTH_URL_NAMESPACE = 'social'
@@ -160,7 +160,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT= '/home/orbital/Orbital/static'
+STATIC_ROOT= '/home/NUadS/NUadS/static'
 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
