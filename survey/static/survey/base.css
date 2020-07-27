@@ -16,4 +16,8 @@ div{
   padding:5px;
 }
 
-  
+
+.messages{
+  position:absolute;
+  z-index: 20
+}
