@@ -1,11 +1,16 @@
 # Orbital
 Team Name: NU(advert)S
+
 Team Members: Tee Kah Ming, Sabrina Yeo 
+
 Proposed Level of Achievement: Apollo 11
+
 Poster Link:
 https://www.canva.com/design/DAEDEr6Z5ow/1O3rUblYe89LT7m1oYDmKg/view?utm_content=DAEDEr6Z5ow&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+
 Website Link:
 nuads.pythonanywhere.com
+
 User Guide Link: https://docs.google.com/document/d/1xK0bmO4I708Ml9_XBN5KzOvGIfXUPCN8UnNoH0rhJ5c/edit?usp=sharing
 
 GitHub Repository Link:
