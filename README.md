@@ -39,6 +39,7 @@ Realised potential loopholes in real-life implementation eg who would be providi
 Setting points earned upon completion of each survey to be 1 across all surveys may be an uneven distribution of points for a ranging level of effort put into survey completion.
  
 Tech Stack:
+
 Framework: Django
 Database: SQL (django)
 Front-end Web Languages: HTML, CSS, Bootstrap
